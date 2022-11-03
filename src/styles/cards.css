@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.titulo{
+	background-color: black;
+	margin-bottom: 20px;
+}
+
+  .titulo h2{
+	text-align: center;
+	color: white;
+	font-size: clamp(2.3rem, 10vw, 2.8rem); 
+	align-items: center;
+	justify-content: center;
+	margin: 2em 0 0 0;
+	display: flex;
+	line-height: 54px;
+	font-family:'Ubuntu';
+	color: transparent;
+    background: linear-gradient(to left, #e02caa, #2c73dd);
+	background-clip: text;
+	-webkit-background-clip: text; 
+  	font-weight: bolder;
+  }
+
+ 
+  @keyframes bg {
+	0% {
+	  background-position-x: 0;
+	}
+	100% {
+	  background-position-x: 10000px;
+	}
+  }
+
+
+  .grid {
+	margin-top: 20px;
+    margin-right: 50px;
+	margin-bottom: 20px;
+}
