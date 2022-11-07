@@ -31,7 +31,7 @@ const NavBar = () => {
             </ul>
 
             <div className='hidden md:flex'>
-                <button class="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-rose-600">ACCOUNT</button>
+                <button class="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-purple-600">ACCOUNT</button>
                 {/* <button className='my-4 p-2 rounded-md border-solid border-2 border-rose-500 bg-gradient-to-r hover:from-pink-700 hover:to-pink-500'>Account</button> */}
             </div>
 
@@ -49,7 +49,7 @@ const NavBar = () => {
                     <li className='border-b hover:text-pink-700 duration-500'>ABOUT</li>
                     <li className='border-b hover:text-pink-700 duration-500'>LOGIN</li>
                     <div className='flex flex-col'>
-                        <button className='my-4 px-6 py-2 text-rose-600 hover:text-white transition-colors duration-300 rounded-lg border-2 border-rose-600 hover:bg-pink-600 rounded-lg shadow-xl'>ACCOUNT</button>
+                        <button className='my-4 px-6 py-2 text-purple-600 hover:text-white transition-colors duration-300 rounded-lg border-2 border-purple-600 hover:bg-purple-600 rounded-lg shadow-xl'>ACCOUNT</button>
                     </div>
 
                 </ul>
