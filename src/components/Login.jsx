@@ -4,7 +4,7 @@ import '../styles/login.css'
 const Login = () => {
     return(
         <>
-        <div className="bg-cover bg-center w-full h-screen relative bg-[url('./assets/fundo5.png')] items center flex justify-center m-0 p-0">
+        <div className="bg-cover bg-center w-full h-screen relative bg-[url('./assets/fundo7.png')] items center flex justify-center m-0 p-0">
         <div class="boxx">
         <div class="form">
             <h2>SIGN IN</h2>

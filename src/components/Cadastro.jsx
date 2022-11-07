@@ -4,7 +4,7 @@ import '../styles/cadastro.css'
 const Cadastro = () => {
     return(
         <>
-        <div className="bg-cover bg-center w-full h-screen relative bg-[url('./assets/fundo6.png')] items center flex justify-center m-0 p-0">
+        <div className="bg-cover bg-center w-full h-screen relative bg-[url('./assets/teste.png')] items center flex justify-center m-0 p-0">
         <div class="boxxs">
         <div class="forms">
             <h2>SIGN UP</h2>

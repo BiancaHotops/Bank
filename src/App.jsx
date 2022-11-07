@@ -5,6 +5,7 @@ import Cards from './components/Cards';
 import Aplicativo from './components/Aplicativo';
 import Login from './components/Login'
 import Cadastro from './components/Cadastro';
+import About from './components/About';
 
 function App() {
   return (
@@ -12,9 +13,11 @@ function App() {
       <NavBar />
       <Hero />
       <Cards />
+      <About />
       <Aplicativo />
       <Login />
       <Cadastro />
+
     </div>
 
   );
