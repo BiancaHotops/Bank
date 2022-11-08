@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+/* @import url(https://fonts.googleapis.com/css?family=Ubuntu:300); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
 
 
 
@@ -11,19 +11,19 @@
 .titulo{
 	background-color: black;
 	/* margin: 1em 0 0 0; */
-	padding: 30px;
+	padding: 5px;
 	
 }
 
   .titulo h2{
 	text-align: center;
 	color: white;
-	font-size: clamp(2.5em, 2.8vw, 4rem);
+	font-size: clamp(2.5em, 2.8vw, 5rem);
 	align-items: center;
 	justify-content: center;
 	display: flex;
 	line-height: 55px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: transparent;
     background: linear-gradient(to left, #ff1c68, #911cff, #1572ff);
 	background-clip: text;

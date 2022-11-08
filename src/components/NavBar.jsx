@@ -18,7 +18,7 @@ const NavBar = () => {
 
         <div className='flex w-full justify-between items-center h-20 px-5 absolute z-10 text-white'>
             <div className={logo ? 'hidden' : 'block'}>
-                <img src={LogoImg} className="w-10" />
+                <img src={LogoImg} className="w-10 hover:scale-105 transition duration-300 ease-in-out" />
             </div>
 
             <ul className='hidden md:flex space-x-10 text-lg'>

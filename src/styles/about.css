@@ -1,3 +1,5 @@
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
 .hero {
     background-position: center;
     background-repeat: no-repeat;
@@ -16,4 +18,8 @@
 
 .photo-3{
     background-image: url("../assets/about1.png");
+}
+
+.about p{
+    font-family: 'Ubuntu';
 }
