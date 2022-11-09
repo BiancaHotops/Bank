@@ -14,13 +14,23 @@ const Cadastro = () => {
                 <i></i>
             </div>
             <div class="inputBoxx">
+                <input type="email" required></input>
+                <span>Email</span>
+                <i></i>
+            </div>
+            <div class="inputBoxx">
                 <input type="password" required></input>
                 <span>Password</span>
                 <i></i>
             </div>
-            <div class="linkss">
-                <a href="#">SignIn</a>
+            <div class="inputBoxx">
+                <input type="password" required></input>
+                <span>Confirm Password</span>
+                <i></i>
             </div>
+            {/* <div class="linkss">
+                <a href="#">SignIn</a>
+            </div> */}
               <button class="buttons"><span>Register</span></button>
         </div>
     </div>

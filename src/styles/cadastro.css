@@ -6,14 +6,14 @@
 .boxxs {
     position: relative;
     width: 380px;
-    height: 420px;
+    height: 600px;
     background: #1c1c1c;
     border-radius: 8px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 230px;
+    margin-top: 160px;
 }
 
 .boxxs::before {
@@ -60,6 +60,9 @@
     padding: 50px 40px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .forms h2 {
