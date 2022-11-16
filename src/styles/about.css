@@ -1,24 +1,5 @@
 
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:300);
-.hero {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.parallax {
-    background-attachment: fixed;
-}
-
-.photo-3{
-    background-image: url("../assets/about5.png");
-}
 
 .about p{
     font-family: 'Ubuntu';

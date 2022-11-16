@@ -17,9 +17,9 @@ const NavBar = () => {
 
     return (
 
-        <div className=' flex w-full justify-between items-center h-20 fixed px-5 z-10 text-white'>
-            <div className={logo ? 'hidden' : 'block'}>
-                <img src={LogoImg} className="w-10 hover:scale-105 transition duration-300 ease-in-out" />
+        <div className=' flex w-full justify-between items-center h-20 fixed px-4 z-10 text-white'>
+            <div className={logo ? 'hidden' : 'block lg:mt-0 mt-6'}>
+                 <img src={LogoImg} className="w-10" /> {/* hover:scale-105 transition duration-300 ease-in-out */}
             </div>
 
             <ul className='hidden md:flex space-x-10 text-lg'>
@@ -38,8 +38,8 @@ const NavBar = () => {
             </div>
 
             {/*  Hamburguer */}
-            <div onClick={handleNav} className='md:hidden z-10 absolute right-5'>
-                {nav ? <AiOutlineClose size={26} /> : <HiOutlineMenu size={30} />}
+            <div onClick={handleNav} className='md:hidden z-10 absolute right-5 mt-4'>
+                {nav ? <AiOutlineClose size={26} /> : <HiOutlineMenu size={35} />}
             </div>
 
             {/* Mobile menu dropdown */}

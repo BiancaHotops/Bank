@@ -1,0 +1,23 @@
+.hero {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.parallax {
+    background-attachment: fixed;
+}
+
+.photo-3{
+    background-image: url("../assets/app.png");
+}
+
+.about p{
+    font-family: 'Ubuntu';
+}
