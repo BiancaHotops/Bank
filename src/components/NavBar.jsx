@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { BsPerson } from 'react-icons/bs'
+import {Link} from "react-router-dom" 
 import { AiOutlineClose } from 'react-icons/ai'
 import { HiOutlineMenu } from 'react-icons/hi'
 import LogoImg from '../assets/logo2.png'
@@ -24,16 +24,16 @@ const NavBar = () => {
 
             <ul className='hidden md:flex space-x-10 text-lg'>
                 {/* hover:text-COR <- para mudar a cor quando passa o mouse por cima*/}
-                <li className="link">HOME</li>
-                <li className="link">SERVICES</li>
-                <li className="link">CARDS</li>
-                <li className="link">APP</li>
-                <li className="link">ABOUT</li>
+                <li className="link" href="#"><a href="#Home">HOME</a></li>
+                <li className="link"><a href="#Services">SERVICES</a></li>
+                <li className="link"><a href="#Cards">CARDS</a></li>
+                <li className="link"><a href="#App">APP</a></li>
+                <li className="link"><a href="#About">ABOUT</a></li>
             </ul>
 
             <div className='hidden md:flex'>
-                <button class="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-purple-600 mr-3">LOGIN</button>
-                <button class="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-rose-600">SIGN UP</button>
+            <Link to='/sign_in'><button class="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-purple-600 mr-3">SIGN IN</button></Link> 
+            <Link to='/sign_up'><button class="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-rose-600">SIGN UP</button></Link>
                 {/* <button className='my-4 p-2 rounded-md border-solid border-2 border-rose-500 bg-gradient-to-r hover:from-pink-700 hover:to-pink-500'>Account</button> */}
             </div>
 

@@ -1,25 +1,23 @@
 import React from 'react'
-import Hero from './components/Hero';
-import NavBar from './components/NavBar';
-import Cards from './components/Cards';
-import Aplicativo from './components/Aplicativo';
-// import Login from './components/Login'
-// import Cadastro from './components/Cadastro';
-import About from './components/About';
-import Cartao from './components/Cartao';
+import DefaultScreen from "../src/DefaultScreen"
+import Sign_in from './components/Sign_in';
+import Sign_up from './components/Sign_up';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Hero />
-      <Cards />
-      <Cartao />
-      <Aplicativo /> 
-      <About />
+   
+    <>
+    <Router>
+    <Routes>
+      <Route path='/' element={<DefaultScreen />} />
+      <Route path='/sign_in' element={<Sign_in />} />
+      <Route path='/sign_up' element={<Sign_up />} />
+      </Routes>
+      </Router>
+    </>
 
-
-    </div>
+ 
 
   );
 }
