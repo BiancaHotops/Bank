@@ -1,0 +1,25 @@
+
+.tituloo{
+	background-color: black;
+	/* margin: 1em 0 0 0; */
+	padding: 5px;
+	
+}
+
+  .tituloo h2{
+	text-align: center;
+	color: white;
+	font-size: clamp(2.5em, 2.8vw, 5rem);
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	line-height: 55px;
+	font-family: 'Montserrat', sans-serif;
+	color: transparent;
+    background: linear-gradient(to left, #ff1c68, #911cff);
+	background-clip: text;
+	-webkit-background-clip: text;
+	
+	
+
+  }

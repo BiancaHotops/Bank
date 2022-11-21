@@ -4,7 +4,8 @@ import NavBar from './components/NavBar';
 import Services from './components/Services';
 import Aplicativo from './components/Aplicativo';
 import About from './components/About';
-import Cartao from './components/Cartao';
+import Card from './components/Card';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       <NavBar />
       <Hero />
       <Services />
-      <Cartao />
+      <Card />
       <Aplicativo /> 
       <About />
+      <Footer />
     </div>
 
  
