@@ -4,11 +4,11 @@ import finan from '../assets/financas.jpg'
 import invest from '../assets/invest.jpg'
 import poupa from '../assets/poupa.jpg'
 import seguro from '../assets/seguro.jpg'
+import {Link} from "react-router-dom" 
 
 const Cards = () => {
   return (
     <>
-      
      
       <div class="flex lg:flex-row min-h-screen items-center justify-center bg-black mt-0 z-auto flex-col">
       <div className="titulo">
@@ -23,7 +23,7 @@ const Cards = () => {
             <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h1 class="font-dmserif text-3xl font-bold text-white">Finance</h1>
               <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Take care of your finances, access your spending profile and have everything at your fingertips.</p>
-              <button class="rounded-full bg-pink-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+              <Link to='/sign_up'>  <button class="rounded-full transition-colors duration-500 bg-pink-600 hover:bg-purple-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></Link>
             </div>
           </div>
           <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
@@ -34,7 +34,7 @@ const Cards = () => {
             <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h1 class="font-dmserif text-3xl font-bold text-white">Investment</h1>
               <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Want to make the best investment decisions? So get started now by clicking the button below.</p>
-              <button class="rounded-full bg-pink-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+              <Link to='/sign_up'>  <button class="rounded-full transition-colors duration-500 bg-pink-600 hover:bg-purple-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></Link>
             </div>
           </div>
           <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
@@ -45,7 +45,7 @@ const Cards = () => {
             <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h1 class="font-dmserif text-3xl font-bold text-white">Savings</h1>
               <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Investing is simpler and easier with Savings: safe and tax-free. Invest now in HBANK Digital Savings.</p>
-              <button class="rounded-full bg-pink-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+              <Link to='/sign_up'>  <button class="rounded-full transition-colors duration-500 bg-pink-600 hover:bg-purple-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></Link>
             </div>
           </div>
           <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
@@ -56,7 +56,7 @@ const Cards = () => {
             <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
               <h1 class="font-dmserif text-3xl font-bold text-white">Car Insurance</h1>
               <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">HBANK Seguro Auto offers basic and additional coverage, in addition to services that provide security.</p>
-              <button class="rounded-full bg-pink-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
+              <Link to='/sign_up'>  <button class="rounded-full transition-colors duration-500 bg-pink-600 hover:bg-purple-600 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></Link>
             </div>
           </div>
         </div>

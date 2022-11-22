@@ -129,18 +129,18 @@
 .links {
     display: flex;
     justify-content: space-between;
+    color: #9c45ff;
+    
 }
 
 .links a {
     margin: 10px 0;
     font-size: 0.75em;
-    color: #8f8f8f;
-    text-decoration: none;
 }
 
-.links a:hover,
-.links a:nth-child(2) {
-    color: #9c45ff;
+.links:hover{
+    color: #bb7fff;
+    transition: 0.5s;
 }
 
 .button {
