@@ -4,7 +4,7 @@ import '../styles/card.css'
 
 const Card = () => {
     return (
-        <div className=" bg-cover bg-center w-full h-screen relative  bg-[url('./assets/fundin.png')] z-auto">
+        <div className=" bg-cover bg-center w-full h-screen relative  bg-[url('./assets/fundin.png')] z-auto" id='card'>
             <div className='w-full h-screen absolute object-cover mix-blend-overlay'></div>
             <div className='grid md:grid-cols-2 max-w-[1500px] m-auto' id='#Card'>
                 <div className='flex flex-col justify-center md:items-start w-full px-5 sm:mt-4'>

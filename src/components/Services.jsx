@@ -10,7 +10,7 @@ const Cards = () => {
   return (
     <>
      
-      <div class="flex lg:flex-row min-h-screen items-center justify-center bg-black mt-0 z-auto flex-col">
+      <div class="flex lg:flex-row min-h-screen items-center justify-center bg-black mt-0 z-auto flex-col" id="services">
       <div className="titulo">
         <h2>Contract Our Services</h2>
         </div>

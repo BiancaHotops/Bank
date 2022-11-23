@@ -39,3 +39,7 @@
         @apply text-2xl cursor-pointer
     }
 }
+
+/* *{
+    scroll-behavior: smooth;
+} */

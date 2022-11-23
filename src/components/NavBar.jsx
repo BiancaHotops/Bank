@@ -37,11 +37,12 @@ const NavBar = () => {
                 </div>
                 
                     <ul className='hidden md:flex space-x-10 text-lg'>
-                        <li className="link">HOME</li>
-                        <li className="link">SERVICES</li>
-                        <li className="link">CARDS</li>
-                        <li className="link">APP</li>
-                        <li className="link">ABOUT</li>
+                        <li className="link"><a href="#home">HOME</a></li>
+                        <li className="link"><a href="#services">SERVICES</a></li>
+                        <li className="link"><a href="#card">CARDS</a></li>
+                        <li className="link"><a href="#app">APP</a></li>
+                        <li className="link"><a href="#about">ABOUT</a></li>
+                        <li className="link"><a href="#contact">CONTACT</a></li>
                     </ul>
                     <div className='hidden md:flex'>
                         <Link to='/sign_in'><button class="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-purple-600 mr-3">SIGN IN</button></Link>
@@ -50,20 +51,20 @@ const NavBar = () => {
 
                     {/*  Hamburguer */}
                     <div onClick={handleNav} className='md:hidden z-10 absolute right-5 mt-5'>
-                        {nav ? <AiOutlineClose size={26} /> : <HiOutlineMenu size={35} />}
+                        {nav ? <AiOutlineClose size={26} className='text-white' /> : <HiOutlineMenu size={35} className='text-white' />}
                     </div>
 
                     {/* Mobile menu dropdown */}
                     <div onClick={handleNav} className={nav ? 'h-screen absolute text-white left-0 top-0 w-full bg-black px-7 flex flex-col items-center justify-center text-center' : 'absolute left-[-100%]'}>
                         <ul>
-                            <li className='border-b hover:text-pink-700 duration-500'>HOME</li>
-                            <li className='border-b hover:text-pink-700 duration-500'>SERVICES</li>
-                            <li className='border-b hover:text-pink-700 duration-500'>CARDS</li>
-                            <li className='border-b hover:text-pink-700 duration-500'>APP</li>
-                            <li className='border-b hover:text-pink-700 duration-500'>ABOUT</li>
+                            <li className='border-b hover:text-pink-700 duration-500'><a href="#home">HOME</a></li>
+                            <li className='border-b hover:text-pink-700 duration-500'><a href="#services">SERVICES</a></li>
+                            <li className='border-b hover:text-pink-700 duration-500'><a href="#card">CARDS</a></li>
+                            <li className='border-b hover:text-pink-700 duration-500'><a href="#app">APP</a></li>
+                            <li className='border-b hover:text-pink-700 duration-500'><a href="#contact">CONTACT</a></li>
                             <div className='flex flex-col'>
-                                <button className=' my-4 px-6 py-2 text-purple-600 hover:text-white transition-colors duration-300 rounded-lg border-2 border-purple-600 hover:bg-purple-600 rounded-lg shadow-xl'>SIGN IN</button>
-                                <button className=' my-4 px-6 py-2 text-rose-600 hover:text-white transition-colors duration-300 rounded-lg border-2 border-rose-600 hover:bg-rose-600 rounded-lg shadow-xl'>SIGN UP</button>
+                            <Link to='/sign_in'><button className=' my-4 px-6 py-2 text-purple-600 hover:text-white transition-colors duration-300 rounded-lg border-2 border-purple-600 hover:bg-purple-600 rounded-lg shadow-xl'>SIGN IN</button></Link>
+                            <Link to='/sign_up'><button className=' my-4 px-6 py-2 text-rose-600 hover:text-white transition-colors duration-300 rounded-lg border-2 border-rose-600 hover:bg-rose-600 rounded-lg shadow-xl'>SIGN UP</button></Link>
 
                             </div>
                         </ul>
