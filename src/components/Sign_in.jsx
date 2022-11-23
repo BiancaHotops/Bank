@@ -23,7 +23,7 @@ const Sign_in = () => {
                             <a href="#"></a>
                             <Link to='/sign_up'>SignUp</Link>
                         </div>
-                        <button class="button"><span>LOGIN</span></button>
+                        <Link to='/logged'> <button class="button"><span>LOGIN</span></button></Link>
                     </div>
                 </div>
             </div>

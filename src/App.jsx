@@ -1,5 +1,6 @@
 import React from 'react'
 import DefaultScreen from "../src/DefaultScreen"
+import Logged from '../src/Logged';
 import Sign_in from './components/Sign_in';
 import Sign_up from './components/Sign_up';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -11,6 +12,7 @@ function App() {
     <Router>
     <Routes>
       <Route path='/' element={<DefaultScreen />} />
+      <Route path='/logged' element={<Logged />} />
       <Route path='/sign_in' element={<Sign_in />} />
       <Route path='/sign_up' element={<Sign_up />} />
       </Routes>

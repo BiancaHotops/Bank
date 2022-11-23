@@ -31,7 +31,7 @@ const NavBar = () => {
 
 
     return (
-            <div className={color ? 'transition-colors duration-300 bg-black/90 flex w-full justify-between items-center h-20 fixed px-4 z-10 text-white' : 'flex w-full justify-between items-center h-20 fixed px-4 z-10 text-white' }>
+            <div className={color ? 'transition-colors duration-300 bg-black/90 flex w-full justify-between items-center h-20 fixed px-4 z-10 ' : 'flex w-full justify-between items-center h-20 fixed px-4 z-10 text-white' }>
                 <div className={logo ? 'hidden' : 'block lg:mt-0 mt-6'}>
                     <img src={LogoImg} className="w-10" />
                 </div>

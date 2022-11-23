@@ -8,7 +8,6 @@
 
   .tituloo h2{
 	text-align: center;
-	color: white;
 	font-size: clamp(2.5em, 2.8vw, 5rem);
 	align-items: center;
 	justify-content: center;
@@ -16,7 +15,7 @@
 	line-height: 55px;
 	font-family: 'Montserrat', sans-serif;
 	color: transparent;
-    background: linear-gradient(to left, #ff1c68, #911cff);
+    background: linear-gradient(to left, #ff528b, #b86dff);
 	background-clip: text;
 	-webkit-background-clip: text;
 	

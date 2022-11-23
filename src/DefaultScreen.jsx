@@ -7,7 +7,7 @@ import About from './components/About';
 import Card from './components/Card';
 import Footer from './components/Footer';
 
-function App() {
+function DefautScreen() {
   return (
 
 
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default DefautScreen;

@@ -1,17 +1,19 @@
 import React from 'react'
-import img from '../assets/cardss.png'
+import img from '../assets/carta.png'
 import '../styles/card.css'
 
 const Card = () => {
     return (
-        <div className='w-full h-screen flex flex-col justify-between  bg-black' id='Card'>
+        <div className=" bg-cover bg-center w-full h-screen relative  bg-[url('./assets/fundin.png')] z-auto">
             <div className='w-full h-screen absolute object-cover mix-blend-overlay'></div>
             <div className='grid md:grid-cols-2 max-w-[1500px] m-auto' id='#Card'>
-                <div className='flex flex-col justify-center md:items-start w-full px-4 sm:mt-4'>
-                    <div className="tituloo">
+                <div className='flex flex-col justify-center md:items-start w-full px-5 sm:mt-4'>
+                    <div className="tituloo lg:mt-0 mt-20">
                         <h2>Hbank Active Cash® Card</h2>
                     </div>
-                    <img src={img} alt="" className='mt-10' />
+                    <div className='lg:mt-48 mt-36'>
+                    <img src={img} className='lg:ml-5 mt-10' />
+                    </div>
                 </div>
             </div>
         </div>
