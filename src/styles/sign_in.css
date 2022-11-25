@@ -152,7 +152,7 @@
 	font-weight: 600;
 	display: flex;
 	align-items: center;
-	width: 100px;
+	width: 90px;
 	color: white;
 	cursor: pointer;
     border: solid 2px;
@@ -163,6 +163,7 @@
     transition-duration: 0.4s;
 }
 
+
 .button:hover{ 
     transition-duration: 0.4s;
     background-color: #23242a ; 
@@ -171,3 +172,7 @@
     border-color: #9c45ff;
 }
 
+.botoes{
+    display: flex;
+    justify-content: space-between;
+}

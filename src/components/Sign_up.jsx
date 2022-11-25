@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/sign_up.css'
 import { Link } from 'react-router-dom'
+import exitt from '../assets/exit1.png'
 
 const Sign_up = () => {
 
@@ -39,7 +40,10 @@ const Sign_up = () => {
                         <div class="linkss">
                             <Link to='/sign_in'>Already have an account? SignIn</Link>
                         </div>
+                        <div className="botoess">
                         <button class="buttons"><span>Register</span></button>
+                        <Link to='/'><img src={exitt} className="w-8 mt-9" /></Link>
+                        </div>
                     </div>
                 </div>
             </div>

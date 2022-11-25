@@ -176,3 +176,8 @@
     border-color: #ff4593 ;
 }
 
+.botoess{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}

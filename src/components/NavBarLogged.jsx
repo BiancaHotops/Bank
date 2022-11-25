@@ -44,7 +44,7 @@ const NavBarLogged = () => {
                         <li className="line">ABOUT</li>
                     </ul>
                     <div className='hidden md:flex'>
-                    <Link to='/default'><button class="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-rose-500 mr-3">GO OUT</button></Link>
+                    <Link to='/'><button class="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-rose-500 mr-3">GO OUT</button></Link>
                        
                     </div>
 

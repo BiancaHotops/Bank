@@ -11,7 +11,7 @@ function App() {
     <>
     <Router>
     <Routes>
-      <Route path='/default' element={<DefaultScreen />} />
+      <Route path='/' element={<DefaultScreen />} />
       <Route path='/logged' element={<Logged />} />
       <Route path='/sign_in' element={<Sign_in />} />
       <Route path='/sign_up' element={<Sign_up />} />
