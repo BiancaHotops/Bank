@@ -1,9 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import '../styles/sign_up.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import exitt from '../assets/exit1.png'
 
+
+
 const Sign_up = () => {
+const [name, setName]=useState("")
+const [email, setEmail]=useState("")
+const [cpf, setCpf]=useState("")
+const [password, setPassword]=useState("")
+const navigate=useNavigate();
+
+
+async function signUp()
+{   
+    let item={'nome':name, email, cpf,'senha': password, 'bloqueio_acesso': true}
+    console.warn(item)
+
+    let endereco = "http://127.0.0.1:8000/usuario/"
+
+    let result= await fetch(endereco,{
+        method:'POST',
+        body:JSON.stringify(item),
+        headers:{
+            "Content-Type":'application/json',
+            "Accept":'application/json'
+        }
+    })
+
+    result = await result.json()
+    localStorage.setItem("user-info", JSON.stringify(result))
+    navigate("/sign_in")
+     
+}
 
     return (
         <>
@@ -13,35 +43,35 @@ const Sign_up = () => {
                     <div class="forms">
                         <h2>SIGN UP</h2>
                         <div class="inputBoxx">
-                            <input type="text" required></input>
+                            <input value={name} onChange={(e)=>setName(e.target.value)} type="text" required></input>
+                            <span>Name</span>
+                            <i></i>
+                        </div>
+                        <div class="inputBoxx">
+                            <input value={cpf} onChange={(e)=>setCpf(e.target.value)} type="text" required></input>
                             <span>CPF</span>
                             <i></i>
                         </div>
                         <div class="inputBoxx">
-                            <input type="text" required></input>
-                            <span>Username</span>
-                            <i></i>
-                        </div>
-                        <div class="inputBoxx">
-                            <input type="email" required></input>
+                            <input value={email} onChange={(e)=>setEmail(e.target.value)} type="email" required></input>
                             <span>Email</span>
                             <i></i>
                         </div>
                         <div class="inputBoxx">
-                            <input type="password" required></input>
+                            <input  value={password} onChange={(e)=>setPassword(e.target.value)} type="password" required></input>
                             <span>Password</span>
                             <i></i>
                         </div>
-                        <div class="inputBoxx">
+                        {/* <div class="inputBoxx">
                             <input type="password" required></input>
                             <span>Confirm Password</span>
                             <i></i>
-                        </div>
+                        </div> */}
                         <div class="linkss">
                             <Link to='/sign_in'>Already have an account? SignIn</Link>
                         </div>
                         <div className="botoess">
-                        <button class="buttons"><span>Register</span></button>
+                        <button onClick={signUp} class="buttons"><span>Register</span></button>
                         <Link to='/'><img src={exitt} className="w-8 mt-9" /></Link>
                         </div>
                     </div>

@@ -12,7 +12,7 @@ const Sign_in = () => {
                         <h2>SIGN IN</h2>
                         <div class="inputBox">
                             <input type="text" required></input>
-                            <span>Username</span>
+                            <span>CPF</span>
                             <i></i>
                         </div>
                         <div class="inputBox">
