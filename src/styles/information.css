@@ -1,12 +1,11 @@
-
-.tituloo{
-	background-color: black;
+.texto{
 	/* margin: 1em 0 0 0; */
 	padding: 5px;
+    
 	
 }
 
-  .tituloo h2{
+  .texto h2{
 	text-align: center;
 	font-size: clamp(2.5em, 2.8vw, 5rem);
 	align-items: center;
@@ -18,26 +17,6 @@
     background: linear-gradient(to left, #ff528b, #b86dff);
 	background-clip: text;
 	-webkit-background-clip: text;
-	
+
+
   }
-
-  .textos{
-	/* margin: 1em 0 0 0; */
-	padding: 5px;	
-	
-}
-
-  .textos h2{
-	text-align: center;
-	font-size: clamp(1.3em, 1.8vw, 5rem);
-	align-items: center;
-	justify-content: center;
-	display: flex;
-	line-height: 55px;
-	font-family: 'Montserrat', sans-serif;
-	color: white;
-
-	
-  }
-
-

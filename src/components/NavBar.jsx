@@ -45,8 +45,8 @@ const NavBar = () => {
                         <li className="link"><a href="#contact">CONTACT</a></li>
                     </ul>
                     <div className='hidden md:flex'>
-                        <Link to='/sign_in'><button class="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-purple-600 mr-3">SIGN IN</button></Link>
-                        <Link to='/sign_up'><button class="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-rose-600">SIGN UP</button></Link>
+                        <Link to='/sign_in'><button className="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-purple-600 mr-3">SIGN IN</button></Link>
+                        <Link to='/sign_up'><button className="px-6 py-2 text-white hover:text-white transition-colors duration-500 border-2 rounded-lg shadow-xl  border-white hover:bg-rose-600">SIGN UP</button></Link>
                     </div>
 
                     {/*  Hamburguer */}

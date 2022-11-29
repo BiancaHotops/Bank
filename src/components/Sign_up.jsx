@@ -3,8 +3,6 @@ import '../styles/sign_up.css'
 import { Link, useNavigate } from 'react-router-dom'
 import exitt from '../assets/exit1.png'
 
-
-
 const Sign_up = () => {
 const [name, setName]=useState("")
 const [email, setEmail]=useState("")
@@ -62,11 +60,6 @@ async function signUp()
                             <span>Password</span>
                             <i></i>
                         </div>
-                        {/* <div class="inputBoxx">
-                            <input type="password" required></input>
-                            <span>Confirm Password</span>
-                            <i></i>
-                        </div> */}
                         <div class="linkss">
                             <Link to='/sign_in'>Already have an account? SignIn</Link>
                         </div>
