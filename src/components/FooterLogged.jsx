@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import logoo from '../assets/logo.png'
 import '../styles/footer.css'
 
@@ -20,39 +21,30 @@ const FooterLogged = () => {
                             <h3 className="tracking-wide uppercase dark:text-gray-50">SERVICES</h3>
                             <ul >
                                 <li className='mt-6 p-0'>
-                                    <a className='linkk' rel="noopener noreferrer" href="#">Home</a>
+                                    <a className='linkk' rel="noopener noreferrer" href="#homelogged">Home</a>
                                 </li>
                                 <li className='mt-6 p-0'>
-                                    <a className='linkk' rel="noopener noreferrer" href="#">Services</a>
+                                    <a className='linkk' rel="noopener noreferrer" href="#information">Information</a>
                                 </li>
                                 <li className='mt-6 p-0'>
-                                    <a className='linkk' rel="noopener noreferrer" href="#">Cards</a>
-                                </li>
-                                <li className='mt-6 p-0'>
-                                    <a className='linkk' rel="noopener noreferrer" href="#">Aplication</a>
+                                    <a className='linkk' rel="noopener noreferrer" href="#local">Local</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="space-y-3">
-                            <h3 className="tracking-wide uppercase dark:text-gray-50">Company</h3>
+                            <h3 className="tracking-wide uppercase dark:text-gray-50">ORDER NOW</h3>
                             <ul >
                                 <li className='mt-6 p-0'>
-                                    <a className='linkk' rel="noopener noreferrer" href="#">About</a>
+                                    <a className='linkk' rel="noopener noreferrer" href="#cardlogged">Card</a>
                                 </li>
 
                             </ul>
                         </div>
                         <div className="space-y-3">
-                            <h3 className="tracking-wide uppercase dark:text-gray-50">Developers</h3>
+                            <h3 className="tracking-wide uppercase dark:text-gray-50">EXIT</h3>
                             <ul >
                                 <li className='mt-6 p-0'>
-                                    <a className='linkk' rel="noopener noreferrer" href="#">Public API</a>
-                                </li>
-                                <li className='mt-6 p-0'>
-                                    <a className='linkk' rel="noopener noreferrer" href="#">Documentation</a>
-                                </li>
-                                <li className='mt-6 p-0'>
-                                    <a className='linkk' rel="noopener noreferrer" href="#">Guides</a>
+                                <Link to='/'> <a className='linkk' rel="noopener noreferrer">Logout</a></Link>
                                 </li>
                             </ul>
                         </div>

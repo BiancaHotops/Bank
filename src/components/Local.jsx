@@ -9,10 +9,10 @@ const Local = () => {
   return (
     <>
       
-      <div class="lg:flex-row flex min-h-screen items-center justify-center bg-white mt-0 z-auto flex-col">
-      <div className="texto">
+      <div class="lg:flex-row flex min-h-screen items-center justify-center bg-gray-900 mt-0 z-auto flex-col" id='local'>
+      {/* <div className="texto">
         <h2 >Cities where our units are located</h2>
-        </div>
+        </div> */}
         <div class="bg-white w-72 h-72 shadow-md rounded m-7 ">
           <div class="h-3/4 w-full">
             <img class="w-full h-full object-cover rounded-t" src={inglaterra} alt="piña"></img>

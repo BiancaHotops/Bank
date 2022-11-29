@@ -8,7 +8,7 @@
 
   .tituloo h2{
 	text-align: center;
-	font-size: clamp(2.5em, 2.8vw, 5rem);
+	font-size: clamp(2em, 2.8vw, 5rem);
 	align-items: center;
 	justify-content: center;
 	display: flex;
@@ -29,10 +29,11 @@
 
   .textos h2{
 	text-align: center;
-	font-size: clamp(1.3em, 1.8vw, 5rem);
+	font-size: clamp(1.20em, 1.8vw, 5rem);
 	align-items: center;
 	justify-content: center;
 	display: flex;
+	margin: 0;
 	line-height: 55px;
 	font-family: 'Montserrat', sans-serif;
 	color: white;

@@ -1,5 +1,5 @@
 import React from 'react'
-import img from '../assets/carta.png'
+import img from '../assets/cardlo.png'
 import '../styles/card.css'
 import {Link} from "react-router-dom" 
 
@@ -17,7 +17,7 @@ const Card = () => {
                         <img src={img} className='lg:ml-5 mt-10 ' />
                     </div>
                 </div>
-                <div className='lg:mt-40 lg:p-0 lg:w-3/4 w-4/3 justify-center flex items-center lg:ml-44 p-4 '>
+                <div className='lg:mt-40 mt-0 lg:p-0 lg:w-3/4 w-96 justify-center flex items-center lg:ml-44 p-4'>
                     <div className="textos">
                         <h2 >Several card templates for you to choose from and use however and wherever you want. Learn more by clicking the button below</h2>
                         <div className='lg:ml-52 lg:mt-5 ml-28 mt-2'>
