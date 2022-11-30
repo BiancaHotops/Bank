@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <>
-            <footer className="px-4 divide-y dark:bg-gray-800 dark:text-gray-100" id='contact'>
+            <footer className="px-4 divide-y bg-gray-800 text-gray-100" id='contact'>
                 <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0 items-center">
                     <div className="lg:w-1/3">
                         <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
@@ -18,7 +18,7 @@ const Footer = () => {
                     </div>
                     <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4 ">
                         <div className="">
-                            <h3 className="tracking-wide uppercase dark:text-gray-50">SERVICES</h3>
+                            <h3 className="tracking-wide uppercase text-gray-50">SERVICES</h3>
                             <ul >
                                 <li className='mt-6 p-0'>
                                     <a className='linkk' rel="noopener noreferrer" href="#services">Services</a>
