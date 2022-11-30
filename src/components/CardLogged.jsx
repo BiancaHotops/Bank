@@ -31,7 +31,14 @@ const CardLogged = () => {
     
         result = await result.json()
         localStorage.setItem("user-info", JSON.stringify(result))
-        navigates("/logged#homelogged")
+        setNome('')
+        setEmail('')
+        setTelefone('')
+        setCpf('')
+        setSalario('')
+        setCidade('')
+        setSenha('')
+        navigates("/logged")
          
     }
     
@@ -68,8 +75,8 @@ const CardLogged = () => {
                 <input value={senha} onChange={(e)=>setSenha(e.target.value)}type="password" class="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500 mb-8"  placeholder="Password " />
             </div>
             <div class="flex justify-center mt-0 my-6 lg:w-96 w-72">
-                <button onClick={Pedido} type='button' class=" rounded-full  p-3 lg:w-40 w-28   bg-gradient-to-r from-sky-600  to-teal-300 text-white text-lg font-semibold " >
-                    Submit
+                <button onClick={Pedido} type='button' class="rounded-full p-3 lg:w-40 w-28 duration-500 bg-gradient-to-r from-sky-600  to-teal-300 hover:bg-gradient-to-r hover:from-rose-300  hover:to-purple-300 text-white text-lg font-semibold " >
+                    SUBMIT
                 </button>
             </div>
         </div>
