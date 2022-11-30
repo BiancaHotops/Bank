@@ -65,7 +65,7 @@ async function signUp()
                         </div>
                         <div className="botoess">
                         <button onClick={signUp} class="buttons"><span>Register</span></button>
-                        <Link to='/'><img src={exitt} className="w-8 mt-9" /></Link>
+                        <Link to='/'><img src={exitt} className="hover:scale-125 duration-150 w-8 mt-9" /></Link>
                         </div>
                     </div>
                 </div>

@@ -62,7 +62,7 @@ async function signIn()
                         </div>
                         <div className="botoes">
                         <Link > <button class="button" onClick={signIn}><span>LOGIN</span></button></Link>
-                        <Link to='/'><img src={exit} className="w-8 mt-9" /></Link>
+                        <Link to='/'><img src={exit} className="hover:scale-125 duration-150 w-8 mt-9" /></Link>
                         </div>
                     </div>
                 </div>
